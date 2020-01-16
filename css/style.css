@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-content: center;
+  align-items: center;
+  background: #333842;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.avatar img {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 115px;
+  width: 115px;
+}
+
+.content {
+  line-height: 1.7em;
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+}
+
+.line {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.line-number {
+  font-family: 'Fira Code', monospace;
+  opacity: 0.3;
+  padding-right: 30px;
+}
+
+.empty-line .line-number-a {
+  opacity: 0.2;
+}
+
+.empty-line .line-number-b {
+  opacity: 0.1;
+}
+
+.empty-line .line-number-c {
+  opacity: 0.05;
+}
+
+.line-content {
+  letter-spacing: 2px;
+}
+
+.line-content mark {
+  background: transparent;
+  color: #ffccaa;
+  letter-spacing: 3px;
+}
+
+.social ul {
+  margin: 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.social a {
+  color: #ffffff;
+  opacity: 0.1;
+}
+
+.social a:hover {
+  opacity: 1;
+  transition: 1.5s;
+}
