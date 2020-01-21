@@ -91,3 +91,10 @@ body {
   opacity: 1;
   transition: 1.5s;
 }
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
