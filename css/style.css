@@ -42,29 +42,29 @@ body {
   justify-content: flex-start;
 }
 
-.line-number {
+.number {
   font-family: 'Fira Code', monospace;
   opacity: 0.3;
   padding-right: 30px;
 }
 
-.empty-line .line-number-a {
+.empty-line .number-5 {
   opacity: 0.2;
 }
 
-.empty-line .line-number-b {
+.empty-line .number-6 {
   opacity: 0.1;
 }
 
-.empty-line .line-number-c {
+.empty-line .number-7 {
   opacity: 0.05;
 }
 
-.line-content {
+.text {
   letter-spacing: 2px;
 }
 
-.line-content mark {
+.text mark {
   background: transparent;
   color: #ffccaa;
   letter-spacing: 3px;
