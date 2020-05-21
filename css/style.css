@@ -1,51 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
+  background: #333842;
+  color: #ffffff;
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
-  margin: 0;
-  padding: 0;
 }
 
 .container {
-  align-content: center;
-  align-items: center;
-  background: #333842;
-  color: #ffffff;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .avatar img {
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
   height: 115px;
   width: 115px;
+  border-radius: 50%;
 }
 
 .content {
-  line-height: 1.7em;
-  padding-bottom: 50px;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 35px;
 }
 
 .line {
-  align-content: flex-start;
-  align-items: flex-start;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
 }
 
 .number {
   font-family: 'Fira Code', monospace;
   opacity: 0.3;
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .empty-line .number-5 {
@@ -70,11 +63,6 @@ body {
   letter-spacing: 3px;
 }
 
-.social ul {
-  margin: 0;
-  padding: 0;
-}
-
 .social li {
   display: inline-block;
   font-size: 25px;
@@ -92,9 +80,15 @@ body {
   transition: 1.5s;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .container {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .social li {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
