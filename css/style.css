@@ -7,7 +7,7 @@
 body {
   background: #333842;
   color: #ffffff;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Fira Code', monospace;
   font-size: 20px;
 }
 
@@ -36,7 +36,6 @@ body {
 }
 
 .number {
-  font-family: 'Fira Code', monospace;
   opacity: 0.3;
   margin-right: 30px;
 }
