@@ -139,11 +139,6 @@ main h3 {
 }
 
 .email {
-  background: linear-gradient(65deg, #b5ac49 0%, #3ca55c 100%);
-  border-bottom: 5px solid rgba(60, 165, 90, 0.5);
-}
-
-.email {
   background: linear-gradient(65deg, #71b280 0%, #134e5e 100%);
   border-bottom: 5px solid rgba(20, 80, 95, 0.5);
 }
